@@ -1,6 +1,6 @@
 # 🎵 Spotify Smart Agent
 
-A desktop application for Windows that intelligently plays music from Spotify with voice-like commands, displays lyrics, album art, and provides full playback control.
+A terminal-based spotify agent that intelligently plays music from Spotify with voice-like commands, displays lyrics and provides full playback control.
 
 ## Requirements
 
@@ -55,6 +55,7 @@ GENIUS_ACCESS_TOKEN = 'paste_your_genius_token_here'
 ```
 
 ## Usage
+Make sure you have either Spotify PC/web app run in backgrounds !
 
 ### Choosing Your Mode
 
