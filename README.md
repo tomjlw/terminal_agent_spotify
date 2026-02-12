@@ -55,11 +55,11 @@ GENIUS_ACCESS_TOKEN = 'paste_your_genius_token_here'
 ```
 
 ## Usage
-Make sure you have either Spotify PC/web app run in backgrounds !
+Make sure you have either Spotify PC/web app run in backgrounds before running terminal scripts!
 
 ### Choosing Your Mode
 
-**🖼️ GUI Mode** (Graphical with album art):
+**🖼️ GUI Mode** (Graphical with album art, not completed yet):
 ```bash
 python spotify_agent_gui.py
 # Or double-click: run_agent.bat
