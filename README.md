@@ -2,6 +2,8 @@
 
 A terminal-based Spotify agent that intelligently plays music from Spotify with voice-like commands, displays lyrics and provides full playback control.
 
+<img width="1474" height="874" alt="image" src="https://github.com/user-attachments/assets/1b51b8c4-b364-4463-aa0c-4a017cf8c4f8" />
+
 ## Requirements
 
 - **Windows 10/11**
