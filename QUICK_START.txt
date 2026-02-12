@@ -1,0 +1,90 @@
+╔════════════════════════════════════════════════════════════════╗
+║           🎵 SPOTIFY SMART AGENT - QUICK START 🎵              ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 SETUP CHECKLIST (One-time only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ✓ Install Python 3.8+
+   Download from: https://www.python.org/downloads/
+
+2. ✓ Install dependencies
+   Open Command Prompt in this folder and run:
+   pip install -r requirements.txt
+
+3. ✓ Get Spotify API credentials
+   a) Go to: https://developer.spotify.com/dashboard
+   b) Create app with redirect URI: http://localhost:8888/callback
+   c) Copy Client ID and Client Secret
+
+4. ✓ Update config.py
+   Replace 'YOUR_CLIENT_ID_HERE' and 'YOUR_CLIENT_SECRET_HERE'
+
+5. ✓ (Optional) Get Genius token for lyrics
+   Go to: https://genius.com/api-clients
+   Update GENIUS_ACCESS_TOKEN in config.py
+
+
+🚀 RUNNING THE AGENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 1: Double-click "run_agent.bat"
+
+METHOD 2: Command Prompt
+   cd C:\Users\liwenj\spotify_agent
+   python spotify_agent_gui.py
+
+⚠️  IMPORTANT: Open Spotify app and play any song first!
+
+
+💡 EXAMPLE COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+play                    → Random song from Spotify catalog
+play Coldplay           → Random Coldplay song
+play rock               → Random rock song
+play Taylor Swift       → Random Taylor Swift song
+play Beatles            → Random Beatles song
+play jazz               → Random jazz song
+
+
+🎮 CONTROLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+▶️  Play/Pause          → Toggle playback
+⏮  Previous            → Go to previous track
+⏭  Next                → Skip to next track
+🔁  Repeat All         → Loop playlist
+🔂  Repeat One         → Loop current song
+🔀  Shuffle            → Random order
+Progress Bar           → Click to seek
+Volume Slider          → Adjust volume
+
+
+❓ TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Authentication failed"
+→ Update credentials in config.py
+→ Make sure redirect URI is: http://localhost:8888/callback
+
+"No devices available"
+→ Open Spotify and play/pause any song first
+
+"Can't control playback"
+→ Spotify Premium is required (API limitation)
+
+"Lyrics not available"
+→ Add Genius token to config.py
+→ Some songs don't have lyrics in database
+
+
+📞 NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Read full README.md for detailed instructions and troubleshooting.
+
+
+═══════════════════════════════════════════════════════════════════
+                    Enjoy your music! 🎵🎶
+═══════════════════════════════════════════════════════════════════
