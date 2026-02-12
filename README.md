@@ -3,7 +3,7 @@
 A desktop application for Windows that intelligently plays music from Spotify with voice-like commands, displays lyrics, album art, and provides full playback control.
 
 **Two Modes Available:**
-- **🖼️ GUI Mode** - Beautiful graphical interface with album art
+- **🖼️ GUI Mode** - Beautiful graphical interface with album art (Not fully tested yet)
 - **🖥️ Terminal Mode** - Text-based interface for terminal lovers (NEW!)
 
 ## Features
