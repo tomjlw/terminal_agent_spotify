@@ -1,5 +1,6 @@
-## Author
-**Liwen Jiang** (tomjlw)
+# 🎵 Spotify Smart Agent
+
+A desktop application for Windows that intelligently plays music from Spotify with voice-like commands, displays lyrics, album art, and provides full playback control.
 
 ## Requirements
 
