@@ -1,6 +1,6 @@
 # 🎵 Spotify Smart Agent
 
-A terminal-based spotify agent that intelligently plays music from Spotify with voice-like commands, displays lyrics and provides full playback control.
+A terminal-based Spotify agent that intelligently plays music from Spotify with voice-like commands, displays lyrics and provides full playback control.
 
 ## Requirements
 
