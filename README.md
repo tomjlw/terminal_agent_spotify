@@ -30,14 +30,8 @@ pip install -r requirements.txt
    - Redirect URI: `http://localhost:8888/callback`
 5. Accept terms and click **"Save"**
 6. Copy your **Client ID** and **Client Secret**
-
-### Step 3: (Optional) Get Genius API Token for Lyrics
-
-1. Go to https://genius.com/api-clients
-2. Create a new API client
-3. Generate an **Access Token**
-
-### Step 4: Configure the App
+   
+### Step 3: Configure the App
 
 Open `config.py` and replace placeholders:
 
