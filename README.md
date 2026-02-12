@@ -61,7 +61,7 @@ pip install -r requirements.txt
 4. Fill in:
    - App name: "Spotify Smart Agent"
    - App description: "Personal music player"
-   - Redirect URI: `http://localhost:8888/callback`
+   - Redirect URI: `http://127.0.0.1:8888/callback`
 5. Accept terms and click **"Save"**
 6. Copy your **Client ID** and **Client Secret**
 
