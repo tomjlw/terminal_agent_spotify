@@ -2,7 +2,7 @@
 
 A Spotify terminal that allows user to play music from Spotify with CLI commands, displays lyrics and provides full playback control.
 
-<img width="490" height="290" alt="image" src="https://github.com/user-attachments/assets/1b51b8c4-b364-4463-aa0c-4a017cf8c4f8" />
+<img width="637" height="377" alt="image" src="https://github.com/user-attachments/assets/1b51b8c4-b364-4463-aa0c-4a017cf8c4f8" />
 
 ## Requirements
 
